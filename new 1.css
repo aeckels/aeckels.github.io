@@ -1,0 +1,151 @@
+body
+{
+	background-color:#A2B5CD;
+	font-family:Calibri;
+}
+
+#mainPage
+{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background-color:Ivory;
+	border: 5px solid #C6E2FF;
+}
+
+#col1
+{
+	background-color:ivory;
+	width:48%;
+	float:left;
+	border-top:5px solid lightblue;
+	border-right:5px solid lightblue;
+	border-bottom:5px solid lightblue;
+}
+
+#col2
+{
+	background-color:ivory;
+	width:48%;
+	float:right;
+	border-top:5px solid lightblue;
+	border-left:5px solid lightblue;
+	border-bottom:5px solid lightblue;
+}
+
+#footer
+{
+	height: 4em;
+	background-color: #4B96AD;
+	font-family: Calibri;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footerCT
+{
+	height: 5.8em;
+	background-color: #4B96AD;
+	font-family: Calibri;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+.hdrCls
+{
+	text-align:center;
+	font-size:2em;
+}
+
+
+
+.hdr2Cls
+{
+	text-align:center;
+	font-size:1.5em;
+}
+
+.courseCls
+{
+	word-spacing:5em;
+}
+
+.courseCls .grpCls
+{
+	word-spacing:normal;
+	font-size:.75em;
+	float:left;
+}
+
+.courseCls .grp2Cls
+{
+	word-spacing:normal;
+	font-size:.75em;
+	float:right;
+}
+
+
+
+
+.navMenu
+{
+	display:inline;
+}
+
+a:hover , a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color:blue;
+}
+.navCls
+{
+	display:block;
+	background-color:#4B96AD; 
+	color:#FFFFFF;
+	text-align:center;
+	font-size:1.1em;
+	font-weight:bold;
+	word-spacing:5em;
+}
+
+.navClsOther
+{
+	display:block;
+	background-color:#133457; 
+	color:#FFFFFF;
+	text-align:center;
+	font-size:1.1em;
+	word-spacing:5em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.navCls .grpCls
+{
+	word-spacing:normal;
+	font-weight:bolder;
+}
+
+.col1
+{
+	background-color:ivory;
+	width:48%;
+	float:left;
+	border-top:5px solid lightblue;
+	border-right:5px solid lightblue;
+	border-bottom:5px solid lightblue;
+}
+
+.col2
+{
+
+	background-color:ivory;
+	width:48%;
+	float:right;
+	border-top:5px solid lightblue;
+	border-left:5px solid lightblue;
+	border-bottom:5px solid lightblue;
+}
+
+
