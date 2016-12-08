@@ -1,66 +1,44 @@
 <!DOCTYPE html>
+<!--This website isn't IE friendly -->
 <html>
 <head>
-	<title>Events</title>
-	<link href="../css/calendar.css" rel="stylesheet" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="hope2.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<script type = "text/javascript" src="calendar.js"></script>
+	<script>
+	
+		
+	function openNav() 
+	{
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() 
+	{
+		document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 </head>
-<body>
-	<div class="bannerHeader">
-	<a href="index.html">
-			<img src="../images/calendarNowLogo.png" />
-	</a>
-	</div>
-	<div id="mainPage">
-	<nav class="hdrCls">
-		
-	</nav>
-	<nav class="navCls">
-		<a href="index.html">Home</a>
-		<a href="Register.html">Register</a>
-		<a href="About.html">About</a>
-		<a href="https://www.gofundme.com" target="_blank"> <font class="grpCls">GoFundMe</font></a>
-	</nav>
-	<div class="month">
-	<ul>
-	<li>
-		Your Events for October 26, 2016
-		</li>
-	</ul>
-	</div>
-	<div class="eventDay">
-		<li>
-			1:30 p.m.: Go to CSC 425
-		</li>
-		<li>
-			2:00 p.m.: Give a rad presentation
-		</li>
-		<li>
-			2:15 p.m.: Get 100 on said presentation
-		</li>
-	</div>
-	<div id="footer">
-		<img src="../images/appleApp.jpg" height="60em" width="180em" style="padding-right:5em" />
-		<img src="../images/googleApp.png" height="60em" width="180em" />
-	</div>
-	</div>
+<body style="background-image: url(skyline.jpg)">
 	
-	<div id="toolbar">
-		<nav class="toolbarHeader">
-		Login <br />
-		</nav>
-		
-		<form action="info.txt" method="post">
-		
-		<input type="username" name="username" placeholder="Username"> <br />
-		<input type="password" name="password" placeholder="Password"> <br />
-		
-		<input type="submit" value="Submit" >
-		</form>
-		
-	</div>
 	
+	
+	
+			
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="home.html">Home</a>
+			<a href="register.html">Register</a>
+			<a href="about.html">About</a>
+		</div>
+		<span style="font-size:30px;cursor:pointer; position:absolute; color:white" onclick="openNav()">&#9776;</span>		
+
+		<div class="header">Your Events for 12/08/2016</div>
+		<div class="centerBox">		
+			
+			
+		
+		</div>
 	
 </body>
 </html>
