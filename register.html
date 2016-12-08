@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--This website isn't IE friendly -->
+<html>
+<head>
+	<link href="hope2.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+	<script type = "text/javascript" src="calendar.js"></script>
+	<script>
+	
+		
+	function openNav() 
+	{
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() 
+	{
+		document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+</head>
+<body style="background-image: url(skyline.jpg)">
+	
+	
+	
+	
+			
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="home.html">Home</a>
+			<a href="reg.html">Register</a>
+			<a href="about.html">About</a>
+		</div>
+		<span style="font-size:30px;cursor:pointer; position:absolute; color:white" onclick="openNav()">&#9776;</span>		
+
+		<div class="header">Avaluk</div>
+		<div class="centerBox">		
+		<form>
+			<div style="text-align: center; color:white">
+				<div style="display: inline-block; text-align: right">		
+					First Name&nbsp <input type="text" name="fName" style="margin-top: 2em"> <br />
+				<div class="inputPadding">
+					Last Name&nbsp <input type="text" name="lName"> <br />	
+				</div>
+			<div class="inputPadding">
+					Username&nbsp  <input type="username" name="username" > <br />
+			</div>
+			<div class="inputPadding">
+				<label for="pass1"> Password&nbsp </label>
+				<input name="pass1" id="pass1" type="password" > <br />
+			</div>
+			<div class="inputPadding">
+				<label for="pass2">Confirm Password&nbsp </label>
+				<input type="password" name="pass2" id="pass2" onkeyup="checkPassword(); return false" /> <br />
+				<span id="confirmMessage" class="confirmMessage"> </span>
+			</div>
+			<input type = "submit" value = "Submit">
+				</div>
+			
+			</div>
+		</form>
+		</div>
+	
+</body>
+</html>

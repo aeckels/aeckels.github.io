@@ -1,0 +1,227 @@
+#mainPage
+{
+	width:80%;
+	height:auto;
+	position:absolute;
+	right:30px;
+	top:7em;
+	background-color:ivory;
+	border: 5px solid rgb(153, 51, 51);
+	
+}
+
+#toolbar
+{
+	width:13%;
+	height:25em;
+	position:absolute;
+	left:30px;
+	top:7em;
+	background-color:ivory;
+	border: 5px solid rgb(153,51,51);
+}
+
+#logo
+{
+	position:absolute;	
+	top:10px;
+	right:30px;
+	border:5px solid rgb(102, 102, 102);
+}
+
+#footer
+{
+	height: 4em;
+	background-color: lightgray;
+	font-family: Calibri;
+	text-align: center;
+	color: #ffffff;
+}
+
+.toolbarHeader
+{
+	text-align:center;
+	color:rgb(153,51,51);
+	background-color:lightgray;
+	font-size:2em;
+}
+
+body
+{
+	background-image:url(../images/bgPic.jpg);
+	font-family:Calibri;
+	margin:0;
+	padding:0;
+}
+
+.hdrCls
+{
+	text-align:center;
+	font-size:2em;
+	background-color:ivory;	
+}
+
+.navCls
+{
+	display:block;
+	background-color:lightgray; 
+	color:#FFFFFF;
+	text-align:center;
+	font-size:1.1em;
+	font-weight:bold;
+	word-spacing:5em;
+}
+
+.navCls .grpCls
+{
+	word-spacing:normal;
+}
+
+
+.centered
+{
+	margin-top:2em;	
+	display:inline-block;
+	position:relative;
+	float:center;
+	text-align:center;
+}
+
+.inputPadding
+{
+	padding-top:1em;
+}
+
+.bannerHeader
+{
+	width:100%;
+	height:6em;
+	text-align:center;
+	background-color:ivory;
+	border:5px solid rgb(153,51,51);
+	padding:0;
+	margin:0;
+	
+}
+
+a:hover,a:visited,a:link,a:active
+{
+	text-decoration:none;
+	color:rgb(153,51,51);
+}
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month 
+{  
+    width: 100%;
+    background: rgb(153,51,51);
+	right:30px;
+	padding-top:2em;
+}
+
+.month a:hover,.month a:visited,.month a:link,.month a:active
+{
+	text-decoration:none;
+	color:ivory;
+}
+
+.month ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li 
+{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	text-align:center;
+}
+
+.month .prev 
+{
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next 
+{
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays 
+{
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li 
+{
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+
+.days 
+{
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+	top:20px;
+}
+
+.days a:hover,.days a:visited,.days a:link,.days a:active
+{
+	text-decoration:none;
+	color:ivory;
+}
+
+.days li 
+{
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+	padding-bottom:10em;
+}
+
+
+.days li .active 
+{
+    padding: 5px;
+    background: rgb(153,51,51);
+    color: white !important;
+	
+}
+
+.eventDay
+{
+	font-size:24px;
+	padding-left:1.5em;
+}
+
+.eventDay li
+{
+	padding-top:2em;
+}
+
+.statement
+{
+	font-size:24px;
+	text-align:center;
+	padding-top:3em;
+	padding-bottom:3em;
+	font-style:italic;
+}
